@@ -1,0 +1,38 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Ice Cream Builder</title>
+    </head>
+    <body>
+        <h1>Ice Cream Builder</h1>
+        <label for="flavor_select">Select Ice Cream Flavor:</label>
+        <select id="flavor_select">
+            <option value="vanilla">Vanilla</option>
+            <option value="chocolate">Chocolate</option>
+            <option value="strawberry">Strawberry</option></select
+        ><br />
+
+        <label for="scoop_input">Number of Scoops:</label>
+        <input type="number" id="scoop_input" min="1" max="5" value="1" /><br />
+
+        <label for="container_select">Select Container:</label>
+        <select id="container_select">
+            <option value="cone">Cone</option>
+            <option value="cup">Cup</option></select
+        ><br />
+
+        <label for="topping_select">Select Topping:</label>
+        <select id="topping_select">
+            <option value="none">None</option>
+            <option value="sprinkles">Sprinkles</option>
+            <option value="chocolate_syrup">Chocolate Syrup</option>
+            <option value="whipped_cream">Whipped Cream</option></select
+        ><br />
+
+        <button id="build_ice_cream">Build Ice Cream</button>
+
+        <div id="result"></div>
+        <script src="script.js"></script>
+    </body>
+</html>
